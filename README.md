@@ -13,9 +13,6 @@ This project uses Facebook Prophet to forecast future sales using monthly retail
 4. Forecast sales for the next 6 months
 5. Evaluate using MAPE
 
-## 🗃️ Sample Output
-
-
 ## 📂 Dataset
 Synthetic dataset generated for demo. Replace with your own retail sales data if needed.
 
