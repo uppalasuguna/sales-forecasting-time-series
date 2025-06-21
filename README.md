@@ -14,7 +14,14 @@ This project uses Facebook Prophet to forecast future sales using monthly retail
 5. Evaluate using MAPE
 
 ## 🗃️ Sample Output
-![Sales Forecast Chart](forecast_output.png)
+
+fig = model.plot(forecast)
+plt.title('Sales Forecast')
+plt.xlabel('Date')
+plt.ylabel('Sales')
+plt.savefig("forecast_output.png")  # 👈 Add this line to save the image
+plt.show()
+
 
 ## 📂 Dataset
 Synthetic dataset generated for demo. Replace with your own retail sales data if needed.
